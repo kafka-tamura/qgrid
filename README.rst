@@ -9,8 +9,7 @@ Fork to make it work with latest version of jupyter lab and notebook
 ====
 This fork hacks the version numbers (reverts from 1.1.1 to 0.3.3) to ensure that qgrid works with latest versions of jupyter lab and notebook.
 
-To install, first uninstall qgrid using
-
+To install, first uninstall qgrid using::
 
   pip install qgrid
   
@@ -19,8 +18,7 @@ To install, first uninstall qgrid using
   # jupyter lab will rebuild after this uninstallation
 
 
-Retrive this repo to local. Install using instructions below in Contributing section:
-
+Retrive this repo to local. Install using instructions below in Contributing section::
 
   # git clone this repo to a folder switch to that folder
   
