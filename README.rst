@@ -12,31 +12,22 @@ This fork hacks the version numbers (reverts from 1.1.1 to 0.3.3) to ensure that
 To install, first uninstall qgrid using::
 
   pip install qgrid
-  
   jupyter labextension uninstall qgrid
-  
   # jupyter lab will rebuild after this uninstallation
-
 
 Retrive this repo to local. Install using instructions below in Contributing section::
 
   # git clone this repo to a folder switch to that folder
-  
   git clone https://github.com/kafka-tamura/qgrid.git
-  
   cd qgrid
 
   pip install -e .
-  
   cd js && npm install .
 
-  jupyter nbextension install --py --symlink --sys-prefix qgrid && jupyter nbextension enable --py --sys-prefix qgrid
-  
+  jupyter nbextension install --py --symlink --sys-prefix qgrid
+  jupyter nbextension enable --py --sys-prefix qgrid
   jupyter labextension install 
-  
   # jupyter lab will rebuild after this uninstallation or on start
-
-
 
 =====
 qgrid
