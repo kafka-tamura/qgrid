@@ -15,7 +15,7 @@ To install, first uninstall qgrid using::
   jupyter labextension uninstall qgrid
   # jupyter lab will rebuild after this uninstallation
 
-Retrive this repo to local. Install using instructions below in Contributing section::
+Retrieve this repo to local. Install using instructions below in Contributing section::
 
   # git clone this repo to a folder switch to that folder
   git clone https://github.com/kafka-tamura/qgrid.git
