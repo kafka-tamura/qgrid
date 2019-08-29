@@ -11,7 +11,7 @@ This fork hacks the version numbers (reverts from 1.1.1 to 0.3.3) to ensure that
 
 To install, first uninstall qgrid using::
 
-  pip install qgrid
+  pip uninstall qgrid
   jupyter labextension uninstall qgrid
   # jupyter lab will rebuild after this uninstallation
 
